@@ -5,8 +5,8 @@ import numpy as np
 # -----------------------
 # Load model & scaler
 # -----------------------
-model = joblib.load('/Users/himanshujaiswal/Desktop/student_risk_predication/deployment/student_risk_logistic_model.pkl')
-scaler = joblib.load('/Users/himanshujaiswal/Desktop/student_risk_predication/deployment/scaler.pkl')
+model = joblib.load('/Users/himanshujaiswal/Desktop/student_risk_predication/student_risk_logistic_model.pkl')
+scaler = joblib.load('/Users/himanshujaiswal/Desktop/student_risk_predication/scaler.pkl')
 
 st.title("🎓 Student Risk Prediction App")
 st.write("Enter student details to predict risk level.")
